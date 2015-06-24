@@ -30,6 +30,11 @@ public class MyViewPager extends LinearLayout{
     ViewPager viewPager;
     List<View> viewList;
     ImageView dot[]=new ImageView[3];
+
+
+
+
+
     Handler handler=new Handler(){
         @Override
         public void handleMessage(Message msg) {
