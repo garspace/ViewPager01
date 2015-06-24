@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <com.cloudstime.myviewpager.MyViewPager
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/myviewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:src_img1="@mipmap/viewpager_img1"
+        app:src_img2="@mipmap/viewpager_img02"
+        app:src_img3="@mipmap/viewpager_img03"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyViewPager">
+        <attr name="src_img1" format="reference"/>
+        <attr name="src_img2" format="reference"/>
+        <attr name="src_img3" format="reference"/>
+    </declare-styleable>
+</resources>
